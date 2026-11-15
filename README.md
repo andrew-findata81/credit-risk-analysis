@@ -31,11 +31,15 @@
 * **Процентная ставка (`int_rate`):** Заемщики с дефолтным статусом имеют значительно более высокие процентные ставки, что подтверждает гипотезу о том, что банк закладывает высокий риск в ставку.
 * **Долговая нагрузка (`dti`):** У дефолтных заемщиков медианное значение DTI выше, что указывает на их высокую закредитованность.
 * **Корреляция:** Наибольшая связь обнаружена между суммой кредита (`loan_amnt`) и общей суммой выплат (`total_pymnt`). Однако наличие невыплаченных кредитов (с нулевой суммой выплат) снижает коэффициент корреляции до 0.47.
+##  Как запустить
+1. Склонируйте репозиторий.
+2. Установите зависимости: `pip install -r requirements.txt`
+3. Запустите Jupyter Notebook `credit_risk_analysis.ipynb`.
 ## 📈 Visualizations
 
 Here are some key visualizations from the analysis:
 
-![Distribution of loan_amnt](images/Distribution_of_Loan_Amount.png)
+![Distribution of Loan_amnt](images/Distribution_of_Loan_Amount.png)
 
 ### Interest Rate by Loan Status
 ![Interest Rate by Loan Status](images/Interest_Rate_by_Loan_Status.png)
@@ -46,8 +50,4 @@ Here are some key visualizations from the analysis:
 ### Average Annual Income by Loan Status
 ![Average Annual Income](images/Average_Annual_Income_by_Loan_Status.png)
 
-##  Как запустить
-1. Склонируйте репозиторий.
-2. Установите зависимости: `pip install -r requirements.txt`
-3. Запустите Jupyter Notebook `credit_risk_analysis.ipynb`.
 
