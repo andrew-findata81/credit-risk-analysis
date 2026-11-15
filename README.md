@@ -39,7 +39,7 @@
 
 Here are some key visualizations from the analysis:
 
-![Distribution of Loan_amnt](images/Distribution_of_Loan_Amount.png)
+![Distribution of Loan_amnt](images/Distribution_of_Loan Amount.png)
 
 ### Interest Rate by Loan Status
 ![Interest Rate by Loan Status](images/Interest_Rate_by_Loan_Status.png)
